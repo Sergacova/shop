@@ -6,6 +6,7 @@ import LoginIcon from '@mui/icons-material/Login';
 import HomeIcon from '@mui/icons-material/Home';
 import InfoIcon from '@mui/icons-material/Info';
 
+
 export function Navbar() {
   const { openCart, cartQuantity } = useShoppingCart()
   return (
